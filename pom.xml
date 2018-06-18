@@ -27,14 +27,14 @@
   </build>
    <distributionManagement>
         <repository>
-            <id>releases</id>
+            <id>nexus</id>
             <name>Internal Releases</name>
-            <url>http://52.15.89.242:8081/repository/SAMPLE-REL/</url>
+            <url>http://54.193.15.132:8081/repository/RELEASE/</url>
         </repository>
         <snapshotRepository>
-            <id>snapshots</id>
+            <id>nexus</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://52.15.89.242:8081/repository/SAMPLE-SNAP/</url>
+            <url>http://54.193.15.132:8081/repository/SNAPSHOT//url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
